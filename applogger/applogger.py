@@ -29,5 +29,10 @@ def get_logger(name):
     return logger
 
 
+def set_log_file(file):
+    global LOG_FILE
+    LOG_FILE = file
+
+
 if __name__ == '__main__':
     get_logger(__name__)
